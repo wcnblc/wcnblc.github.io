@@ -116,7 +116,7 @@ function downloadUrl(url, callback) {
                 var marker = new google.maps.Marker({
                     position: pos,
                     map: map,
-                    icon: 'https://drive.google.com/file/d/1rq63h_InMei3dhENaqp1u3rNkoonE5PC/view?usp=sharing',
+                    icon: 'youicon.png',
                     animation: google.maps.Animation.DROP
                 });
                 map.setZoom(14);
@@ -168,15 +168,15 @@ function downloadUrl(url, callback) {
       var point = {lat:parseFloat(ptLat), lng:parseFloat(ptLng)};
       //var keyword = document.getElementById("locationKeyword").value;
         if(type == "SemiQuick"){
-          makertype[count] = "wcnblc.github.io/icon/SQicon.png";
+          makertype[count] = "SQicon.png";
         }else if(type == "Quick"){
-          makertype[count] = "wcnblc.github.io/icon/Qicon.png";
+          makertype[count] = "Qicon.png";
         }else if(type == "SemiQuick;Quick"){
-          makertype[count] = "wcnblc.github.io/icon/SQQicon.png";
+          makertype[count] = "SQQicon.png";
         }else if(type == "Standard"){
-          makertype[count] = "wcnblc.github.io/icon/Sicon.png";
+          makertype[count] = "Sicon.png";
         }else if(type == "Standard;SemiQuick"){
-          makertype[count] = "wcnblc.github.io/icon/SSQicon.png";
+          makertype[count] = "SSQicon.png";
         }
       console.log(img);
       contentString[count] =
